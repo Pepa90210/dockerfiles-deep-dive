@@ -2,7 +2,7 @@
 
 # Step 1: Use the 'nginx' official image, with the latest version for alpine
 #   Pinning a version makes development so much easier because it is predictable
-FROM alpine
+FROM nginx:alpine
 # Step 2: Change our working directory to the root of nginx webhost
 WORKDIR /usr/share/nginx/html
 # Step 3: Copy in the file or files or folder!
